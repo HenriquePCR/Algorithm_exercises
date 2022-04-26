@@ -1,0 +1,10 @@
+{
+    "code-runner.runInTerminal": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "list": "cpp",
+        "ostream": "cpp",
+        "regex": "cpp"
+    }
+}
