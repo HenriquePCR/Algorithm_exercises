@@ -15,12 +15,10 @@ int main()
 
     for (long long i = 1; i <= input; i++)
     {
-        cout << "teste";
         totalCombinations = ((i * i) * (i * i - 1)) / 2;
         knightsClash = 4 * (i - 1) * (i - 2);
         total = totalCombinations - knightsClash;
-        cout << total + "\n";
-        cout << "fim do teste";
+        cout << total << endl;
     }
     return 0;
 }
