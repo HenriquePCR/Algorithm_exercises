@@ -19,7 +19,7 @@ int main()
             break;
         for(lettersIndex = 0;lettersIndex<12;lettersIndex++){
             cin >> nextLetter;
-            letters[lettersIndex]= nextLetter
+            letters[lettersIndex]= nextLetter;
 
         }
     }
