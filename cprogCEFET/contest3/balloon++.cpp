@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-// vector<vector<int>> matrix(RR, vector<int>(CC));
-
 using namespace std;
 
 #define _                         \
@@ -19,9 +17,15 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
 
-        // solution comes here
-
-        return 0;
+    float pi = 3.1415;
+    float in;
+    cin >> in;
+    float max;
+    cin >> max;
+    float rCube = in * in * in;
+    float volume = (4 * rCube * pi) / 3;
+    ll ans = max / volume;
+    cout << ans << endl;
 }

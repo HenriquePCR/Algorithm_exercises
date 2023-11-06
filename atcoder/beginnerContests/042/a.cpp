@@ -11,17 +11,32 @@ using namespace std;
 #define f first
 #define s second
 #define dbg(x) cout << #x << " = " << x << end
+#define int long long
 
 typedef long long ll;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
-int main()
+int32_t main()
 {
     _
-
         // solution comes here
-
-        return 0;
+        int in;
+    vector<int> v;
+    for (int i = 0; i < 3; i++)
+    {
+        cin >> in;
+        v.push_back(in);
+    }
+    sort(v.begin(), v.end());
+    if (v[0] == 5 && v[1] == 5 && v[2] == 7)
+    {
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
+    }
+    return 0;
 }

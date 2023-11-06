@@ -19,9 +19,8 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
+    
 
-        // solution comes here
-
-        return 0;
+    return 0;
 }

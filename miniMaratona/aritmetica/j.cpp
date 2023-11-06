@@ -16,12 +16,25 @@ typedef long long ll;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0X3f3f3f3f3f3f3f3fll;
-
+ll fac(int n)
+{
+    ll f = 1;
+    for (int i = 1; i <= n; ++i)
+        f *= i;
+    return f;
+}
 int main()
 {
     _
-
         // solution comes here
 
-        return 0;
+        int m,
+        n;
+    while (cin >> m >> n)
+    {
+        cout << fac(m) << endl;
+        ll ans = fac(n) / (fac(m) * fac(n - m));
+        cout << ans << endl;
+    }
+    return 0;
 }

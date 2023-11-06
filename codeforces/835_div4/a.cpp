@@ -19,9 +19,19 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        vector<int> ans(3);
+        int n1, n2, n3;
+        cin >> n1 >> n2 >> n3;
+        ans[0] = n1;
+        ans[1] = n2;
+        ans[2] = n3;
+        sort(ans.begin(), ans.end());
+        cout << ans[1] << endl;
+    }
+    return 0;
 }

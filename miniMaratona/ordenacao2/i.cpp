@@ -19,9 +19,17 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
+    int n;
+    cin >> n;
+    set<unsigned long long> v;
+    for (int i = 0; i < n; i++)
+    {
+        unsigned long long in;
+        cin >> in;
+        v.insert(in);
+    }
+    cout << v.size() << endl;
 
-        // solution comes here
-
-        return 0;
+    return 0;
 }

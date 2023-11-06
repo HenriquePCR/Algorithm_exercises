@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-// vector<vector<int>> matrix(RR, vector<int>(CC));
-
 using namespace std;
 
 #define _                         \
@@ -19,9 +17,12 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    float in;
+    cin >> in;
+    float ans;
+    ans = log10(in);
+    cout << fixed;
+    cout << setprecision(1);
+    cout << ans << endl;
 }

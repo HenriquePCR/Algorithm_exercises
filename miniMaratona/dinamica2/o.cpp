@@ -20,8 +20,25 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 int main()
 {
     _
-
         // solution comes here
-
-        return 0;
+        int n;
+    int total = 0;
+    vector<int> v;
+    while (cin >> n)
+    {
+        v.push_back(n);
+    }
+    total += v[0];
+    for (int i = 1; i < v.size(); i++)
+    {
+        v[i] = max(v[i - 1] + v[i], v[i]);
+    }
+    // for (auto u : v)
+    // {
+    //     cout << u << " ";
+    // }
+    // cout << endl;
+    sort(v.begin(), v.end(), greater<int>());
+    cout << v[0] << endl;
+    return 0;
 }

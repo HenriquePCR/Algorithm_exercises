@@ -20,8 +20,22 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 int main()
 {
     _
-
         // solution comes here
+        ll n,
+        k;
+    cin >> n >> k;
+    for (int i = 2 * n; i > 0; i--)
+    {
+        if (i * i == k)
+        {
+            continue;
+        }
+        else if ((i * i - k) % (2 * n + 1) == 0 && ((i - (int)sqrt(k)) % 2 == 1))
+        {
 
-        return 0;
+            cout << i * i << endl;
+            return 0;
+        }
+    }
+    return 0;
 }

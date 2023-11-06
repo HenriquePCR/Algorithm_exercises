@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-// vector<vector<int>> matrix(RR, vector<int>(CC));
-
 using namespace std;
 
 #define _                         \
@@ -19,9 +17,15 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
 
-        // solution comes here
-
-        return 0;
+    ll in;
+    cin >> in;
+    string ans;
+    cin.ignore();
+    getline(cin, ans);
+    for (int i = 0; i < in; i++)
+    {
+        cout << ans << endl;
+    }
 }

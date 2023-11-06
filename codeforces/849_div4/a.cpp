@@ -19,9 +19,23 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    int n;
+    cin >> n;
+    string ans = "codeforces";
+    for (int i = 0; i < n; i++)
+    {
+        char c;
+        cin >> c;
+        int pos = ans.find(c);
+        if (pos < ans.size())
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
+    }
+    return 0;
 }

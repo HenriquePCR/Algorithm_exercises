@@ -19,9 +19,21 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    string in;
+    vector<string> v;
+    while (std::getline(std::cin, in))
+    {
+        if (in.empty())
+        {
+            break;
+        }
+        v.push_back(in);
+    }
+    sort(v.begin(), v.end());
+    for (auto u : v)
+    {
+        cout << u << endl;
+    }
+    return 0;
 }

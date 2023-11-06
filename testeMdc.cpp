@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-// vector<vector<int>> matrix(RR, vector<int>(CC));
-
 using namespace std;
 
 #define _                         \
@@ -15,13 +13,23 @@ using namespace std;
 typedef long long ll;
 
 const int INF = 0x3f3f3f3f;
-const ll LINF = 0X3f3f3f3f3f3f3f3fll;
+
+long long mdc(long long int a, long long int b)
+{
+    if (b == 0)
+        return a;
+    return mdc(b, a % b);
+}
+
+long long mmc(int a, int b)
+{
+    return (a / mdc(a, b)) * b;
+}
 
 int main()
 {
-    _
+    // solution comes here
 
-        // solution comes here
-
-        return 0;
+    cout << mdc(10, 4) << endl;
+    cout << mmc(10, 4) << endl;
 }

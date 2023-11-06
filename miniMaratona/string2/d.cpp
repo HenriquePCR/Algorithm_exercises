@@ -19,9 +19,26 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
 
-        // solution comes here
+    int n;
+    while (true)
+    {
+        cin >> n;
+        if (n == 0)
+        {
+            break;
+        }
+        set<string> ans;
+        for (int i = 0; i < n; i++)
+        {
+            string in;
+            cin >> in;
+            sort(in.begin(), in.end());
+            ans.insert(in);
+        }
+        cout << ans.size() << endl;
+    }
 
-        return 0;
+    return 0;
 }

@@ -19,9 +19,20 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        string in;
+        cin >> in;
+        sort(in.begin(), in.end());
+        char lastC = in[n - 1];
+        int ans = int(lastC) - int('a') + 1;
+        cout << ans << endl;
+    }
 
-        // solution comes here
-
-        return 0;
+    return 0;
 }

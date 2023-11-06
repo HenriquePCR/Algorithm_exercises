@@ -20,8 +20,27 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 int main()
 {
     _
-
         // solution comes here
-
+        string in;
+    cin >> in;
+    if (in == "XOX")
+    {
+        cout << "*" << endl;
         return 0;
+    }
+    else if (in == "XXO")
+    {
+        cout << "Alice" << endl;
+        return 0;
+    }
+    else if (in == "OXX")
+    {
+        cout << "Alice" << endl;
+        return 0;
+    }
+    else
+    {
+        cout << "?" << endl;
+        return 0;
+    }
 }

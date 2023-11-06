@@ -19,9 +19,24 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    char c;
+    cin >> c;
+    cin.ignore(1, '\n');
+    string in;
+    getline(cin, in);
+    for (int j = 0; j < in.size(); j++)
+    {
+        in[j] = char(tolower(in[j]));
+    }
+    int cont = 0;
+    for (int j = 0; j < in.size(); j++)
+    {
+        if (in[j] == c)
+        {
+            cont++;
+        }
+    }
+    cout << cont << endl;
+    return 0;
 }

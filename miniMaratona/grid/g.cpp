@@ -19,9 +19,23 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
+    // solution comes here
 
-        // solution comes here
+    int m;
+    cin >> m;
+    vector<int> adj[n];
+    set<string> v;
 
-        return 0;
+    int n;
+    cin >> n;
+
+    for (int i = 0; i < n; i++)
+    {
+        string in1, in2;
+        int c;
+        cin >> in1 >> in2 >> c;
+        v.insert(in1);
+        v.insert(in2);
+    }
+    return 0;
 }

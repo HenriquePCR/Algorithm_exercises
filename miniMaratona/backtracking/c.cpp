@@ -17,11 +17,26 @@ typedef long long ll;
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
+long long mdc(long long int a, long long int b)
+{
+    if (b == 0)
+        return a;
+    return mdc(b, a % b);
+}
+
+long long mmc(int a, int b)
+{
+    return (a / mdc(a, b)) * b;
+}
+
 int main()
 {
     _
-
         // solution comes here
-
-        return 0;
+        ll a,
+        b;
+    cin >> a >> b;
+    ll ans = mdc(a, b);
+    cout << ans << endl;
+    return 0;
 }

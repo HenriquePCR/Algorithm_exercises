@@ -19,9 +19,21 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int a, b, c;
+        cin >> a >> b >> c;
+        if (a + b == c)
+        {
+            cout << "+" << endl;
+        }
+        else
+        {
+            cout << "-" << endl;
+        }
+    }
+    return 0;
 }

@@ -23,5 +23,18 @@ int main()
 
         // solution comes here
 
-        return 0;
+        int n;
+    cin >> n;
+    string s;
+    cin >> s;
+    for (int i = 0; i < s.size(); i++)
+    {
+        int x = s[i] - 'A';
+        char y = 'A' + (x + n) % 26;
+        cout << y;
+    }
+    cout << endl;
+
+    return 0;
 }
+

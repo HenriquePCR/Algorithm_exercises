@@ -19,9 +19,18 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    // solution comes here
+    vector<string> v;
+    string in;
+    while (cin >> in)
+    {
+        v.push_back(in);
+    }
+    cout << "saiu" << endl;
+    sort(v.begin(), v.end());
+    for (auto u : v)
+    {
+        cout << u << endl;
+    }
+    return 0;
 }

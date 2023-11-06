@@ -20,8 +20,15 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 int main()
 {
     _
-
         // solution comes here
+        vector<int>
+            v(4);
+    for (int i = 0; i < 4; i++)
+    {
+        int n;
+        cin >> v[i];
+    }
+    if()
 
-        return 0;
+    return 0;
 }

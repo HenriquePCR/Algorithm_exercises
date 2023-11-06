@@ -11,17 +11,30 @@ using namespace std;
 #define f first
 #define s second
 #define dbg(x) cout << #x << " = " << x << end
+#define int long long
 
 typedef long long ll;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
-int main()
+int32_t main()
 {
-    _
+    // solution comes here
+    int l = 0, r = INF;
+    while (l < r)
+    {
+        int m = (l + r) / 2;
+        if (m < x)
+        {
+            l = m + 1;
+        }
+        else
+        {
+            r = m;
+        }
+    }
+    int ans = l;
 
-        // solution comes here
-
-        return 0;
+    return 0;
 }

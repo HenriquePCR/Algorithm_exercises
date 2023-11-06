@@ -23,5 +23,13 @@ int main()
 
         // solution comes here
 
+        ll a,b,x;
+
+        ll total=0;
+
+        cin >> a >> b >> x;
+
+        total = a * n + b * trunc(log10(n))
+
         return 0;
 }

@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-// vector<vector<int>> matrix(RR, vector<int>(CC));
-
 using namespace std;
 
 #define _                         \
@@ -19,9 +17,22 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
+    ll n1 = 1, n2 = 1, n3, i, number;
+    cin >> number;
+    if (number <= 2)
+    {
+        cout << 1 << endl;
         return 0;
+    }
+    else
+    {
+        for (i = 2; i < number; ++i)
+        {
+            n3 = n1 * 3 + n2;
+            n1 = n2;
+            n2 = n3;
+        }
+        cout << n3 << endl;
+        return 0;
+    }
 }

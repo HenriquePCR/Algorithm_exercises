@@ -11,17 +11,16 @@ using namespace std;
 #define f first
 #define s second
 #define dbg(x) cout << #x << " = " << x << end
+#define int long long
 
 typedef long long ll;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
-int main()
+int32_t main()
 {
-    _
+    // solution comes here
 
-        // solution comes here
-
-        return 0;
+    return 0;
 }

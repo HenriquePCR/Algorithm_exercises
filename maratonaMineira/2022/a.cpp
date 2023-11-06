@@ -20,8 +20,16 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 int main()
 {
     _
-
         // solution comes here
-
-        return 0;
+        int n;
+    cin >> n;
+    if (n == 1)
+    {
+        cout << 0 << endl;
+    }
+    else
+    {
+        cout << 1 << endl;
+    }
+    return 0;
 }

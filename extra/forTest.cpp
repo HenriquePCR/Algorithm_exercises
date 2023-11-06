@@ -19,9 +19,11 @@ const ll LINF = 0X3f3f3f3f3f3f3f3fll;
 
 int main()
 {
-    _
-
-        // solution comes here
-
-        return 0;
+    int n = 1;
+    for (int i = 0; i < n; i++)
+    {
+        n++;
+        cout << "num  " << i;
+    }
+    // solution comes here
 }
